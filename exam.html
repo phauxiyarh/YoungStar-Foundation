@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .qheader{
+        font:bold 14px Arial;
+        }
+        
+        .qselections{
+        font:normal 13px Arial;
+        }
+        .content {
+        max-width: 900px;
+        margin: auto;
+ 
+        }
+        
+
+        #jform {  
+            width: 900px;
+            border: 2px dotted rgb(3, 14, 3);
+            padding: 20px;  
+            background-color: rgb(121, 229, 243);
+            border-radius: 8px;
+            flex-grow: initial;
+            align-content: center;
+            
+        }
+    </style>
+    <script src="quizconfig.js"></script>
+    <script>
+        var actualchoices=new Array()
+        document.cookie="ready=yes"
+    </script>
+</head>
+<body>
+    <div class="content">
+    <div id="jform"> 
+
+        <div class="text-center">
+            <h1 id="time"></h1>
+        </div>
+        <form id="formtimer" name="formtimer" class="form-inline" action="#" method="post">
+             
+            <button class="btn btn-default" type="button" id="timerb">Start Exam</button>
+          </form>
+           
+          
+
+          <br>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id velit ut tortor pretium viverra suspendisse potenti nullam ac. Cras pulvinar mattis nunc sed blandit libero volutpat sed. Diam ut venenatis tellus in. Quis enim lobortis scelerisque fermentum dui faucibus in. Mollis aliquam ut porttitor leo a diam sollicitudin. Leo in vitae turpis massa sed elementum tempus egestas sed. Et tortor at risus viverra adipiscing. Odio euismod lacinia at quis. Nullam eget felis eget nunc lobortis. Est placerat in egestas erat imperdiet sed. Morbi tristique senectus et netus et. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus.
+
+        </p>
+
+        <p>
+            Nunc scelerisque viverra mauris in aliquam sem fringilla. Ornare aenean euismod elementum nisi quis. Sed velit dignissim sodales ut. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Sed risus ultricies tristique nulla aliquet. Aliquam eleifend mi in nulla. Purus in mollis nunc sed id semper risus in hendrerit. At quis risus sed vulputate odio ut. Cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Cursus euismod quis viverra nibh cras pulvinar. Ac ut consequat semper viverra. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Ultrices gravida dictum fusce ut placerat orci. Vulputate dignissim suspendisse in est ante in.
+        </p>
+
+
+    <form method="POST" name="myquiz">
+
+        <font face="Arial"><big><big>General Knowledge Quiz</big></big></font></p>
+        
+        <div class="qheader">
+        1) What is the difference between a jungle and a rain forest?</div>
+        <div class="qselections">
+        <input type="radio" value="a" name="question1">a) No difference. Simply two different ways in referring to the same thing.<br>
+        <input type="radio" value="b" name="question1">b) A jungle in general receives less rain than a rain forest.<br>
+        <input type="radio" value="c" name="question1">c) A jungle refers to the thickest area of a rain forest<br>
+        <input type="radio" value="d" name="question1">d) A jungle and a rain forest each contain their own group of distinct plants and animals.<br>
+        </div>
+        
+        <br>
+        
+        <div class="qheader">
+        2) What is the world's most common religion?</div>
+        <div class="qselections">
+        <input type="radio" value="a" name="question2">a) Christianity<br>
+        <input type="radio" value="b" name="question2">b) Buddhism<br>
+        <input type="radio" value="c" name="question2">c) Hinduism<br>
+        <input type="radio" value="d" name="question2">d) Muslim<br>
+        </div>
+        
+        <br>
+        
+        <div class="qheader">
+        3) Which city ranks as the world's most populous city (2002)?</div>
+        <div class="qselections">
+        <input type="radio" value="a" name="question3">a) New York (US)<br>
+        <input type="radio" value="b" name="question3">b) Mexico City (Mexico)<br>
+        <input type="radio" value="c" name="question3">c) Tokyo (Japan)<br>
+        <input type="radio" value="d" name="question3">d) Shanghai (China)<br>
+        </div>
+        
+        <br>
+        
+        <div class="qheader">
+        4) What is the second largest country (in size) in the world?</div>
+        <div class="qselections">
+        <input type="radio" value="a" name="question4">a) USA<br>
+        <input type="radio" value="b" name="question4">b) China<br>
+        <input type="radio" value="c" name="question4">c) Canada<br>
+        <input type="radio" value="d" name="question4">d) Russia<br>
+        </div>
+        
+        <br>
+        
+        <div class="qheader">
+        5) As of January 2003, how much is Microsoft Chairman Bill Gates's net worth?</div>
+        <div class="qselections">
+        <input type="radio" value="a" name="question5">a) 10 million US<br>
+        <input type="radio" value="b" name="question5">b) 10 billion US<br>
+        <input type="radio" value="c" name="question5">c) 35 billion US<br>
+        <input type="radio" value="d" name="question5">d) 50 billion US<br>
+        </div>
+        
+        <br>
+        
+        <div class="qheader">
+        6) Which country below is not one of the members of the UN security council (Jan 2003)?</div>
+        <div class="qselections">
+        <input type="radio" value="a" name="question6">a) USA<br>
+        <input type="radio" value="b" name="question6">b) China<br>
+        <input type="radio" value="c" name="question6">c) Germany<br>
+        <input type="radio" value="d" name="question6">d) France<br>
+        </div>
+        
+        <br>
+        
+        <div class="qheader">
+        7) The longest river in the world is:</div>
+        <div class="qselections">
+        <input type="radio" value="a" name="question7">a) Amazon (Brazil)<br>
+        <input type="radio" value="b" name="question7">b) Nile (Egypt)<br>
+        <input type="radio" value="c" name="question7">c) Yangtze (China)<br>
+        <input type="radio" value="d" name="question7">d) Congo (Zaire)<br>
+        </div>
+        
+        <br>
+        
+        <div class="qheader">
+        8) Which software firm is the second largest in the world, after Microsoft?</div>
+        <div class="qselections">
+        <input type="radio" value="a" name="question8">a) Netscape<br>
+        
+        <input type="radio" value="b" name="question8">b) Oracle<br>
+        <input type="radio" value="c" name="question8">c) Lotus<br>
+        <input type="radio" value="d" name="question8">d) Norton<br>
+        </div>
+        
+        <br>
+        
+        <div class="qheader">
+        9) What's the world's most widely spoken language?</div>
+        <div class="qselections">
+        <input type="radio" value="a" name="question9">a) English<br>
+        <input type="radio" value="b" name="question9">b) Spanish<br>
+        <input type="radio" value="c" name="question9">c) Mandarin<br>
+        <input type="radio" value="d" name="question9">d) French<br>
+        </div>
+        
+        <br>
+        
+        <div class="qheader">
+        10) Which continent is host to the most countries in the world?</div>
+        <div class="qselections">
+        <input type="radio" value="a" name="question10">a) Asia<br>
+        <input type="radio" value="b" name="question10">b) Africa<br>
+        <input type="radio" value="c" name="question10">c) Europe<br>
+        </div>
+        
+        <br>
+        <br>
+        <input type="button" value="Submit" formaction="result.html" name="B1" onClick="gradeit()">
+        <script>
+            //window.location="exam.html";
+        </script>
+
+        </form>
+    </br>
+</div>
+</div>
+</br>
+ 
+<script type="text/javascript">
+
+$(function(){
+    $('#timerb').click(function() {
+        //var sec     = $("#detik").val();
+        var timer   = new CountDownTimer(600);
+        var timeObj = CountDownTimer.parse(sec);
+        
+        format(timeObj.minutes, timeObj.seconds);
+        timer.onTick(format);
+        timer.start();
+    });
+
+    function format(minutes, seconds) {
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+        
+        var display = document.querySelector('#time');
+        display.textContent = minutes + ':' + seconds;
+    }
+});
+</script>
+
+
+</body>
+</html>

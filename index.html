@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <style>
+        .content {
+        max-width: 500px;
+        margin: auto;
+ 
+        }
+        
+
+        #jform {  
+            width: 500px;
+            border: 2px dotted rgb(3, 14, 3);
+            padding: 10px; 
+            margin-left: 50px;
+            background-color: rgb(121, 229, 243);
+            border-radius: 8px;
+            flex-grow: initial;
+            align-content: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="content"> 
+      
+    <form>
+        <div id="jform">
+        <h1> Welcome to the requitment Exam </h1>
+        <h3> Login Multiple Choice Question </h3>
+        <input type="text" placeholder="Username" id="text1" /><br /><br/>
+        <input type="password" placeholder="Password" id="text2" /><br /><br/>
+        <input type="button" value="Login"  onclick="javascript:validate()" />
+        </div>
+    </form>
+
+</div>
+
+
+    <script type="text/javascript">
+     function validate()
+        {
+            if( document.getElementById("text1").value == "exam"
+            && document.getElementById("text2").value == "123" )
+            {
+                //alert( "validation succeeded" );
+            window.location="instruction.html";
+            return false;
+            }
+            else
+            {
+                alert( "validation failed" );
+        }}
+    </script>
+</body>
+</html>
